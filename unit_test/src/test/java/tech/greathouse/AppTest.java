@@ -21,8 +21,7 @@ public class AppTest {
     @Test
     public void shouldAnswerWithTrue()
     {
-        String[] args = {""};
-        App.main(args);
+        App.main(new String[]{""});
         assertEquals("Hello Brandon!", systemOutRule.getLog());
     }
 }
