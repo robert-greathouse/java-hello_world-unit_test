@@ -23,6 +23,6 @@ public class AppTest {
     {
         String[] args = {""};
         App.main(args);
-        assertEquals("Hello Nevin!", systemOutRule.getLog());
+        assertEquals("Hello Brandon!", systemOutRule.getLog());
     }
 }
