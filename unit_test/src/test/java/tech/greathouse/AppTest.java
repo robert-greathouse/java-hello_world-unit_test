@@ -22,6 +22,6 @@ public class AppTest {
     public void shouldAnswerWithTrue()
     {
         App.main(new String[]{""});
-        assertEquals("Hello Test!", systemOutRule.getLog());
+        assertEquals("Hello Robert!", systemOutRule.getLog());
     }
 }
